@@ -14,7 +14,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Keep the enable switch with the native-bridge bundle so products do not need
 # to duplicate it.
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
 	persist.sys.nativebridge=1
 
 # Vendor-scoped compatibility properties belong in vendor/build.prop.
